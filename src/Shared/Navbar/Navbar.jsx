@@ -5,13 +5,13 @@ const Navbar = () => {
 
     const navs = <>
          <Link to='/'><li>Home</li></Link>
-         <Link to='/'><li>About</li></Link>
+         <Link to='/menu'><li>Our Menu</li></Link>
          <Link to='/'><li>Contact</li></Link>
          <Link to='/'><li>Others</li></Link>
          <Link to='/'><li>Features</li></Link>
     </>
     return (
-        <div className="navbar fixed z-10 bg-opacity-30 bg-black text-white">
+        <div className="navbar fixed z-10 bg-opacity-30 max-w-5xl bg-black text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
